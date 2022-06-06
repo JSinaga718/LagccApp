@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/laguardia_transfer_services"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#131313"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="376dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/we_are_here_to_guide_you_towards_your_future"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+    <TextView
+        android:id="@+id/applyTransfer"
+        android:layout_width="106dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="192dp"
+        android:layout_marginBottom="8dp"
+        android:text="Transfer Credits"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/applyReq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/visitfacultytextView4"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+    <TextView
+        android:id="@+id/applyReq"
+        android:layout_width="167dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="10dp"
+        android:text="Application Requirements"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/applyFin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/applyTransfer" />
+    <TextView
+        android:id="@+id/applyFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="11dp"
+        android:text="Financial Aid"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/applyCun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/applyReq" />
+
+    <TextView
+        android:id="@+id/applyCun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="10dp"
+        android:text="CUNY 4 Year Colleges"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/applyNys"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/applyFin" />
+    <TextView
+        android:id="@+id/visitfacultytextView4"
+        android:layout_width="329dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="104dp"
+        android:text="@string/visit_your_faculty_advisor_to_discuss_options_available_and_to_customize_the_optimal_plan_for_you"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+    <TextView
+        android:id="@+id/applyNys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="5dp"
+        android:text="NYS 4 Year Colleges"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/applyFaq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/applyCun" />
+
+    <TextView
+        android:id="@+id/applyFaq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="265dp"
+        android:layout_marginBottom="3dp"
+        android:text="FAQs"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/collegestudents"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/applyNys" />
+
+    <ImageView
+        android:id="@+id/collegestudents"
+        android:layout_width="203dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="192dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/applyFaq"
+        app:srcCompat="@drawable/lagcc" />
+
+    <ImageView
+        android:id="@+id/laguardialogo"
+        android:layout_width="249dp"
+        android:layout_height="115dp"
+        android:layout_marginBottom="28dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="50dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/collegestudents" />
+
+    <TextView
+        android:id="@+id/applyStud"
+        android:layout_width="126dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginBottom="37dp"
+        android:background="#DA4E4E"
+        android:includeFontPadding="false"
+        android:paddingTop="13dp"
+        android:text="Student Sucess Stories"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/collegestudents"
+        app:layout_constraintTop_toBottomOf="@+id/applyReq"
+        app:layout_constraintVertical_bias="0.661" />
+
+    <ImageView
+        android:id="@+id/applyInstagram"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/igicon" />
+
+  /*  <ImageView
+        android:id="@+id/applyFacebook"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toEndOf="@+id/applyInstagram"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:layout_constraintVertical_bias="0.235"
+        app:srcCompat="@drawable/facebook_icon" />
+    */
+
+    <ImageView
+        android:id="@+id/applyTwitter"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/applyFacebook"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:srcCompat="@drawable/twitter_icon" />
+
+    <TextView
+        android:id="@+id/applyContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="16dp"
+        android:text="CONTACT US"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/applyInstagram"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

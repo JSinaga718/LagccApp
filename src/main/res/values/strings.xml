@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">LagccAlumni</string>
+    <!-- Strings related to login -->
+    <string name="welcome">"Welcome!\nClick on a resource to learn more."</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="linkApply">
+       <ul><li><a href="https://www.indeed.com/q-Full-Time-l-Queens,-NY-jobs.html?vjk=951710d9704cee03">Jobs Suggestions</a></li></ul>
+   </string>
+    <string name="linkIntern">
+       <ul><li><a href="https://www.linkedin.com/jobs/internship-jobs/">InternShips Suggestions</a></li></ul>
+   </string>
+    <string name="linkCom">
+       <ul><li><a href="https://www.laguardia.edu/">LaGuardia Community</a></li></ul>
+   </string>
+
+    <string name="Transfer_Credits">
+        <ul><li><a
+            href="https://www.laguardia.edu/uploadedfiles/main_site/content/admissions/docs/transfer-credit-policy.pdf">Transfer Credits</a></li></ul>
+    </string>
+
+    <string name="Application_Requirements">
+        <ul><li><a
+            href="https://www.laguardia.edu/transferservices/">Application Requirements</a></li></ul></string>
+
+    <string name="Financial_Aid">
+        <ul><li><a
+            href="https://www.laguardia.edu/financial-aid/types-of-aid/">Financial Aid</a></li></ul></string>
+
+    <string name="CUNY_4_Year_Colleges">
+        <ul><li><a
+            href="https://www.laguardia.edu/transferservices/">CUNY 4 Year Colleges</a></li></ul></string>
+
+    <string name="NYS_4_year_colleges">
+        <ul><li><a
+            href="https://bigfuture.collegeboard.org/college-search">NYS 4 Year Colleges</a></li></ul></string>
+
+    <string name="FAQs">
+        <ul><li><a
+            href="https://www.laguardia.edu/student-services/transfer-services/faqs/">FAQs</a></li></ul></string>
+
+    <string name="Student_Success_Stories">
+        <ul><li><a
+            href="https://www.laguardia.edu/anniversary/stories.html">Student Success Stories</a></li></ul></string>
+
+    <string name="CONTACT_US">
+        <ul><li><a
+            href="https://www.laguardia.edu/about/contact-us/">CONTACT US</a></li></ul></string>
+
+
+    <string name="learn_more_about_our_jobs">Learn more about Our Jobs</string>
+    <string name="laguardia_community">LaGuardia  Community</string>
+    <string name="laguardia_transfer_services">LaGuardia Transfer Services</string>
+    <string name="we_are_here_to_guide_you_towards_your_future">We are here to guide you towards your future.</string>
+    <string name="menu">MENU</string>
+    <string name="visit_your_faculty_advisor_to_discuss_options_available_and_to_customize_the_optimal_plan_for_you">Visit your faculty advisor to discuss options available and to customize the optimal plan for you.</string>
+    <string name="transfer_credits">Transfer Credits</string>
+    <string name="transfer_credits2">Transfer Credits</string>
+    <string name="application_requirements">Application Requirements</string>
+    <string name="financial_aid">Financial Aid</string>
+    <string name="cuny_4_year_colleges">CUNY 4 Year Colleges</string>
+    <string name="nys_4_year_colleges">NYS 4 Year Colleges</string>
+    <string name="faqs">FAQs</string>
+    <string-array name="transfer_info">
+        <item>GPA requirements</item>
+        <item>Scholarships</item>
+        <item>Degree Map</item>
+        <item>Transfer Grid</item>
+    </string-array>
+    <string-array name="description">
+        <item>random description</item>
+        <item>random description</item>
+        <item>random description</item>
+        <item>random description</item>
+    </string-array>
+</resources>
